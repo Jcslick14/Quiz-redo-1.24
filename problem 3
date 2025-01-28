@@ -1,0 +1,10 @@
+#problem 3
+
+def factorial(n):
+    potato = 1 #this holds onto the value
+    for i in range(1, n+1):
+        potato*=i
+        print("multiplaying by ", i)
+    return potato
+
+print(factorial(5))
