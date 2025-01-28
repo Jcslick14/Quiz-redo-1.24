@@ -1,0 +1,7 @@
+#Quiz redo Jeremy
+import math
+def PythagTheorem(a, b):
+    c = math.sqrt(a*a + b*b)
+    return c
+
+print (PythagTheorem(3, 4))
